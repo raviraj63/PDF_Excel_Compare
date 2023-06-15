@@ -61,6 +61,8 @@ public static void readExcel() throws IOException {
     String s = null;
     XSSFSheet ws=wb.getSheet("Sheet1");
     int rows=ws.getPhysicalNumberOfRows();
+
+
     ArrayList<String> l=new ArrayList<String>();
 
   for(int i=0;i<rows;i++)
