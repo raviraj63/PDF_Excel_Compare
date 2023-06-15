@@ -79,7 +79,7 @@ public static void readExcel() throws IOException {
     }
     String str = sb.toString();
     System.out.println("Coming from Excel changing in master "+str);
-    
+    System.out.println("Learnig"+str);
     
     }
 
